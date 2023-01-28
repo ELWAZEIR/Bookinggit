@@ -1,0 +1,18 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    background-color: aliceblue;
+    /* background-color: rgb(23, 22, 22);
+    color: white; */
+}
+.iti-bg-color{
+    background-color: #003580 !important;
+}
+.iti-text-color{
+    color: #003580 !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}

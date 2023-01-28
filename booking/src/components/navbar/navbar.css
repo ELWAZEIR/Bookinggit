@@ -1,0 +1,36 @@
+.navbar{
+ 
+}
+
+
+
+.navbar-logo{
+  
+}
+.navbar-items{
+
+}
+
+.navbar-btn{
+    margin-left: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #0D76C3;
+}
+
+.navbar-btn:hover{
+    background-color: #dae6ef;
+}
+
+.logout{
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+.logout:hover{
+    color: yellow;
+
+}

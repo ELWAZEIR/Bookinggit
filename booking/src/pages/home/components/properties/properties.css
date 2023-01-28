@@ -1,0 +1,9 @@
+.propertyImg:hover{
+    transform: scale(1.1) rotate(.5deg);
+    
+}
+
+.propertyImg{
+    transition: all .5s;
+    overflow: hidden;
+}

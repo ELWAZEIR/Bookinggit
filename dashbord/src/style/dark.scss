@@ -1,0 +1,38 @@
+.app.dark{
+    background-color: #111;
+    color: azure;
+
+    .table{
+        background-color: #111;
+        .TableCell{
+            color: gray;
+
+        }
+    }
+    .sideber{
+        background-color: #111 !important;
+        h2{
+            color: gray !important;
+        }
+        ul li ul li span{
+            color: #999;
+        }
+        ul li ul li .icon{
+            color: #999;
+        }
+    }
+    .dataTable{
+        .datagrid{
+            color: gray;
+            border: none;
+        }
+        .deleteButton,.cellWithStatus{
+            color: gray !important;
+            border: none;
+        }
+        .viewButton .view{
+      color: gray;
+      border: none;
+        }
+    }
+}

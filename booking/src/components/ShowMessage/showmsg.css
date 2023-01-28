@@ -1,0 +1,74 @@
+
+.mybody {
+  
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 98.7vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.426);
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	
+}
+.parentx{
+	background-color: white;
+	border-radius: 10px;
+	height: 90vh;
+	width: 50%;
+	
+}
+.exit{
+	top: 5px;
+	left: 94%;
+	position: relative;
+	color: black;
+	font-size: large;
+}
+
+
+
+
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	}
+
+.contentx {
+	width: 100%;
+
+	margin-top: 10px;
+	
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+

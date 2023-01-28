@@ -1,0 +1,57 @@
+.reservation{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rContainer{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    
+
+}
+.close{
+position: absolute;
+top: 0;
+right: 0;
+cursor: pointer;
+font-size: 20px;
+margin: 20px;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.title,.desc,.max,.price{
+    font-weight: 300;
+}
+
+.room{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap:5px;
+    font-size: 15px;
+    color:gray;
+    padding: 10px;
+    
+}
+
+

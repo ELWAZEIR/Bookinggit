@@ -1,0 +1,6 @@
+.home-item:hover{
+    scale: 1.04;
+}
+.home-item{
+    transition: all .3s;
+}
